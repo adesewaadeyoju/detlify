@@ -61,35 +61,22 @@ nav button{
 
 /* hero section */
 .hero_section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
-h1{
-  color: white;
-  font-family: 'roboto';
-  font-size: 2.5rem;
-}
-h1 span{
-  background: linear-gradient(
-    to right, #F79E0E,#EEBD23);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-}
-p{
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 0.8rem;
-  color: #E1E1E1;
-}
-p span{
-  background: linear-gradient(
-    to right, #F79E0E,#EEBD23);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-}
-.section_list{
+.hero_section_details_btn{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  align-items: start;
+  justify-content: center;
+}
+.rocket_image{
+  height: 100%;
+}
+.rocket_image img {
+  width: 100%;
+  height: 70%;
 }
 /* hero section ends */
