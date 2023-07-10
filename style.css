@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:wght@400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:wght@100&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +44,7 @@ nav ul li a {
   color: white;
 }
 nav .logo {
+  font-family: 'Roboto', sans-serif;;
   font-size: 1.8rem;
   font-weight: 200;
 }
@@ -71,9 +72,24 @@ h1{
 }
 h1 span{
   background: linear-gradient(
-    to right, #f32170, #ff6b08,
-     #cf23cf, #eedd44);
+    to right, #F79E0E,#EEBD23);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
+}
+p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #E1E1E1;
+}
+p span{
+  background: linear-gradient(
+    to right, #F79E0E,#EEBD23);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.section_list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 /* hero section ends */
