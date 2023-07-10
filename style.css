@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+/* nav section */
+body {
+  font-family: 'roboto';
+}
+
+.container_pd {
+  padding: 45px 5rem;
+}
+header {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  background-image: url("images/Banner.png");
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+nav ul li a {
+  text-decoration: none;  
+  background-image: linear-gradient();
+  font-size: 0.7rem;
+  color: white;
+}
+nav .logo {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+nav button{
+  background: none;
+  border: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color:#FDC221;
+}
+/* nav section ends */
+
+
+/* hero section */
+.hero_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  font-family: 'roboto';
+  font-size: 2.5rem;
+}
+h1 span{
+  background: linear-gradient(
+    to right, #f32170, #ff6b08,
+     #cf23cf, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+/* hero section ends */
