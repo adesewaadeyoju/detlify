@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@100&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Pacifico&family=Roboto:wght@100&family=Rubik:wght@300&display=swap"); 
 * {
   scroll-behavior: smooth;
   font-family: "Nunito Sans", sans-serif;
@@ -461,3 +461,30 @@ nav button {
   width: 160px;
   height: 40px;
 }
+/*Site Section Begins*/
+.site_content_details{
+  text-align: center;
+}
+.site_content_details h3{
+  background: linear-gradient(to right, #f79e0e, #eebd23);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.site_content_details .flex_item .site_list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.site_content_details .flex_item .site_list p{
+    margin-left: 70px;
+    background: linear-gradient(to right, #f79e0e, #eebd23);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.site_content_details .flex_item i{
+  height: 300px;
+}
+
+/*Site Section Ends*/
